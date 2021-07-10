@@ -1,0 +1,102 @@
+@media only screen and (max-width: 1500px){
+    .mobile-nav-icon{
+        display: none;
+    }
+}
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px){
+    .main-page{
+        padding-top: 140px;
+        font-size: 110%;
+    }
+    .main-page p{
+        display: none;
+    }
+
+    .app-vedio{
+        max-width: 90%;
+    }
+    .footer-flex ul{
+        padding-inline-start: 0px;
+    }
+    .footer-flex li{
+        padding: 0 30px;
+        border-bottom: 60px;
+    }
+
+    .mobile-nav-icon{
+        display: none;
+    }
+}
+
+/* Small tablet to big tablet : from 768px to 1023px */
+@media only screen and (max-width: 1023px){
+    .main-page{
+        padding-top: 140px;
+        font-size: 110%;
+    }
+    .main-page p{
+        display: none;
+    }
+    .main-page h2{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .vedio-header{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .vedio-desc{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .app-vedio{
+        max-width: 90%;
+    }
+
+    .gift-flex{
+        display: block;
+    }
+    .gift-header{
+        font-size: 90%;
+    }
+    .footer-flex{
+        display: none;
+    }
+    .mobile-nav-icon{
+        display: none;
+    }
+    
+/* Small phones to small tablets */
+@media only screen and (max-width: 540px){
+    .mobile-nav-icon{
+        display: block;
+        float: right;
+    }
+
+    .headlink{
+        display: none;
+    }
+    
+    .main-page{
+        font-size: 90%;
+    }
+    .trail-desc {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .vedio-header{
+        padding-top: 45px;
+        font-size: 95%;
+    }
+
+    header{
+       background-attachment: scroll;
+       height: 400px;
+    }
+}
+
+
+}
